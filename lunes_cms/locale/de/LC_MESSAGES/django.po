@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-11 14:13+0000\n"
+"POT-Creation-Date: 2026-05-13 12:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,99 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: analytics/admin_views.py:31
+msgid "Day"
+msgstr "Tag"
+
+#: analytics/admin_views.py:32
+msgid "Week"
+msgstr "Woche"
+
+#: analytics/admin_views.py:33
+msgid "Month"
+msgstr "Monat"
+
+#: analytics/admin_views.py:150
+#: analytics/templates/admin/analytics/reports/sessions.html:76
+msgid "Sessions"
+msgstr "Sitzungen"
+
+#: analytics/admin_views.py:154
+msgid "Avg duration (s)"
+msgstr "Ø Dauer (s)"
+
+#: analytics/admin_views.py:161 analytics/models/session_duration_report.py:18
+#: analytics/models/session_duration_report.py:19
+msgid "Total Session Duration"
+msgstr "Gesamte Sitzungsdauer"
+
+#: analytics/apps.py:12
+msgid "Analytics"
+msgstr "Statistiken"
+
+#: analytics/templates/admin/analytics/reports/sessions.html:4
+msgid "Django site admin"
+msgstr "Django-Administration"
+
+#: analytics/templates/admin/analytics/reports/sessions.html:13
+#: cms/templates/admin/delete_confirmation.html:16
+#: cms/templates/admin/delete_selected_confirmation.html:15
+#: cmsv2/templates/admin/cmsv2/assign_units_to_user.html:8
+#: cmsv2/templates/admin/csv_form.html:8
+#: cmsv2/templates/admin/generate_audio_base.html:9
+#: cmsv2/templates/admin/generate_image_base.html:9
+msgid "Home"
+msgstr "Home"
+
+#: analytics/templates/admin/analytics/reports/sessions.html:25
+msgid "From"
+msgstr "Von"
+
+#: analytics/templates/admin/analytics/reports/sessions.html:28
+msgid "To"
+msgstr "Bis"
+
+#: analytics/templates/admin/analytics/reports/sessions.html:31
+msgid "Granularity"
+msgstr "Granularität"
+
+#: analytics/templates/admin/analytics/reports/sessions.html:33
+msgid "Daily"
+msgstr "Täglich"
+
+#: analytics/templates/admin/analytics/reports/sessions.html:34
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: analytics/templates/admin/analytics/reports/sessions.html:35
+msgid "Monthly"
+msgstr "Monatlich"
+
+#: analytics/templates/admin/analytics/reports/sessions.html:38
+msgid "Apply"
+msgstr "Anwenden"
+
+#: analytics/templates/admin/analytics/reports/sessions.html:46
+msgid "Total sessions"
+msgstr "Sitzungen gesamt"
+
+#: analytics/templates/admin/analytics/reports/sessions.html:52
+#: analytics/templates/admin/analytics/reports/sessions.html:77
+msgid "Total time"
+msgstr "Gesamtzeit"
+
+#: analytics/templates/admin/analytics/reports/sessions.html:58
+msgid "Avg session duration"
+msgstr "Ø Sitzungsdauer"
+
+#: analytics/templates/admin/analytics/reports/sessions.html:78
+msgid "Avg duration"
+msgstr "Ø Dauer"
+
+#: analytics/templates/admin/analytics/reports/sessions.html:90
+msgid "No data in selected range"
+msgstr "Keine Daten im gewählten Zeitraum"
 
 #: api/apps.py:13
 msgid "API"
@@ -561,15 +654,6 @@ msgstr ""
 "Es ist nicht möglich, untergeordnete Elemente für Module zu erstellen (im "
 "Gegensatz zu Modulgruppen)"
 
-#: cms/templates/admin/delete_confirmation.html:16
-#: cms/templates/admin/delete_selected_confirmation.html:15
-#: cmsv2/templates/admin/cmsv2/assign_units_to_user.html:8
-#: cmsv2/templates/admin/csv_form.html:8
-#: cmsv2/templates/admin/generate_audio_base.html:9
-#: cmsv2/templates/admin/generate_image_base.html:9
-msgid "Home"
-msgstr "Home"
-
 #: cms/templates/admin/delete_confirmation.html:20
 #: cms/templates/admin/delete_confirmation.html:24
 #: cms/templates/admin/delete_confirmation.html:32
@@ -702,34 +786,37 @@ msgstr "Alle Vokabeln dieser Berufe als CSV exportieren"
 msgid "Duplicate selected jobs"
 msgstr "Ausgewählte Berufe duplizieren"
 
-#: cmsv2/admins/job_admin.py:214
-msgid "Selected jobs have been duplicated successfully."
-msgstr "Die ausgewählten Berufe wurden erfolgreich dupliziert."
+#: cmsv2/admins/job_admin.py:210
+msgid "New"
+msgstr "Neu"
 
-#: cmsv2/admins/job_admin.py:235
+#: cmsv2/admins/job_admin.py:215
+msgid "Selected jobs have been duplicated successfully."
+msgstr "Ausgewählte Berufe wurden erfolgreich dupliziert."
+
+#: cmsv2/admins/job_admin.py:236
 msgid "Import"
 msgstr "Import"
 
 #: cmsv2/admins/unit_admin.py:50
 msgid "assigned user"
-msgstr "Zugewiesene Person"
+msgstr "zugewiesener Benutzer"
 
 #: cmsv2/admins/unit_admin.py:51
 msgid "assigned users"
-msgstr "Zugewiesene Personen"
+msgstr "zugewiesene Benutzer"
 
 #: cmsv2/admins/unit_admin.py:162 cmsv2/admins/unit_admin.py:182
 #: cmsv2/templates/admin/cmsv2/assign_units_to_user.html:4
 #: cmsv2/templates/admin/cmsv2/assign_units_to_user.html:14
 msgid "Assign selected units to user"
-msgstr "Ausgewählte Einheiten zuweisen"
+msgstr "Ausgewählte Einheiten einem Benutzer zuweisen"
 
 #: cmsv2/admins/unit_admin.py:200
 #, python-format
 msgid "Assigned %(new)d unit(s) to %(user)s (%(skipped)d already assigned)."
 msgstr ""
-"%(new)d Einheit(en) an %(user)s zugewiesen (%(skipped)d waren bereits "
-"zugewiesen)."
+"%(new)d Einheit(en) %(user)s zugewiesen (%(skipped)d bereits zugewiesen)."
 
 #: cmsv2/admins/unit_admin.py:221
 msgid "jobs"
@@ -737,11 +824,11 @@ msgstr "Berufe"
 
 #: cmsv2/admins/user_admin.py:21
 msgid "assigned unit"
-msgstr "Zugewiesene Einheit"
+msgstr "zugewiesene Einheit"
 
 #: cmsv2/admins/user_admin.py:22
 msgid "assigned units"
-msgstr "Zugewiesene Einheiten"
+msgstr "zugewiesene Einheiten"
 
 #: cmsv2/admins/word_admin.py:20
 msgid "Has Image"
@@ -983,23 +1070,24 @@ msgstr "Vokabel"
 
 #: cmsv2/templates/admin/cmsv2/assign_units_to_user.html:10
 msgid "Assign to user"
-msgstr "An nutzende Person zuweisen"
+msgstr "Einem Benutzer zuweisen"
 
 #: cmsv2/templates/admin/cmsv2/assign_units_to_user.html:31
 #, python-format
 msgid "You are about to assign %(counter)s unit to a single user."
 msgid_plural "You are about to assign %(counter)s units to a single user."
-msgstr[0] "Du bist dabei, %(counter)s Einheit einer Person zuzuweisen."
-msgstr[1] "Du bist dabei, %(counter)s Einheiten einer Person zuzuweisen."
+msgstr[0] ""
+"Sie sind dabei, %(counter)s Einheit einem einzelnen Benutzer zuzuweisen."
+msgstr[1] ""
+"Sie sind dabei, %(counter)s Einheiten einem einzelnen Benutzer zuzuweisen."
 
 #: cmsv2/templates/admin/cmsv2/assign_units_to_user.html:39
 msgid "User"
-msgstr "Nutzende Person"
+msgstr "Benutzer"
 
 #: cmsv2/templates/admin/cmsv2/assign_units_to_user.html:47
 msgid "Units already assigned to this user will be skipped."
-msgstr ""
-"Einheiten, die dieser Person bereits zugewiesen sind, werden übersprungen."
+msgstr "Bereits diesem Benutzer zugewiesene Einheiten werden übersprungen."
 
 #: cmsv2/templates/admin/cmsv2/assign_units_to_user.html:52
 msgid "Selected units"
@@ -1094,10 +1182,6 @@ msgstr "Willkommen bei der Vokabelverwaltung von Lunes!"
 #: help/apps.py:13
 msgid "help"
 msgstr "Hilfe"
-
-#, python-format
-#~ msgid "%(name)s (New)"
-#~ msgstr "%(name)s (Neu)"
 
 #, python-format
 #~ msgid "Unexpected error - %(e)s"
